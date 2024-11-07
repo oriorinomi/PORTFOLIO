@@ -14,7 +14,7 @@ function Hero() {
 
             <div className="description">
                 <h1>{datas.titre}</h1>
-                <p>{datas.description}, <br /><br /> {datas.description2}, <br /><br /> {datas.description3}, <br /><br /> {datas.description4}, <br /><br /> {datas.description5}, <br /><br /> {datas.description6}, <br /><br /> {datas.description7}</p>
+                <p>{datas.description} <br /><br /> {datas.description2} <br /><br /> {datas.description3} <br /><br /> {datas.description4} <br /><br /> {datas.description5} <br /><br /> {datas.description6} <br /><br /> {datas.description7}</p>
             </div>
 
         </section>

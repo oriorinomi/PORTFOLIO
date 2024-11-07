@@ -21,8 +21,8 @@ function Projets () {
         <div className="projets">
         <h2>{datas.titreProjets}</h2>
          {opacityDescription && (
-                    <p className="descCookie">{datas.descriptionCookie} <br /> {datas.descriptionCookie2} <br /><br />{datas.descriptionCookie3} <br />{datas.descriptionCookie4}</p>
-                )};
+                    <p className="descCookie">{datas.descriptionCookie}  {datas.descriptionCookie2}{datas.descriptionCookie3}{datas.descriptionCookie4}</p>
+                )}
         </div>
 
         <div className="container-btn">

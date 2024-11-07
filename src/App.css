@@ -25,8 +25,8 @@ nav ul {
   justify-content: center;
   gap: 7rem;
   align-items: center;
-  margin: auto;
-  margin-top: 4rem;
+  margin: 0 auto;
+  margin-top: 8rem;
 }
 
 .container-image {
@@ -92,6 +92,8 @@ nav ul {
 :root {
   background-color: #17131C;
   background-image: url("/flou.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: whitesmoke;
   font-family: Nokora;
 }
