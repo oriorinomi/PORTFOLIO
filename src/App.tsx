@@ -1,25 +1,18 @@
 import NavBar from "./NavBar";
 import Hero from "./components/Hero";
 import Projets from "./Projets";
-import './App.css';
+import "./App.css";
 
-function App () {
+function App() {
+	return (
+		<div>
+			<NavBar />
 
-    return (
+			<Hero />
 
-      <>
-
-        <div>
-
-            <NavBar></NavBar>
-
-            <Hero></Hero>
-
-            <Projets></Projets>
-            
-        </div>
-        </>
-    );
+			<Projets />
+		</div>
+	);
 }
 
 export default App;
