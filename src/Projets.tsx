@@ -1,4 +1,5 @@
 import datas from "./datas/datas.json";
+import arrow from "/arrow.svg";
 import "./App.css";
 import { useState } from "react";
 
@@ -20,8 +21,9 @@ function Projets() {
 				{opacityDescription && (
 					<div className="descCookie">
 						<p>{datas.descriptionCookie}</p>
-						<p>{datas.descriptionCookie2}</p>
+						<p>{datas.descriptionCookie2}</p> <br />
 						<p>{datas.descriptionCookie3}</p>
+						<br />
 						<p>{datas.descriptionCookie4}</p>
 					</div>
 				)}
@@ -35,10 +37,14 @@ function Projets() {
 					onMouseEnter={handleMouseEnter}
 					onMouseLeave={handleMouseLeave}
 				>
-					<a href={datas.lienCookie} target="_blank" rel="noopener noreferrer">
-						Cookie Clicker
+					<a
+						href={datas.lienJamMusic}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Jam Music
 					</a>{" "}
-					<img src={datas.arrow} alt="Cookie-Icon" />
+					<img src={arrow} alt="arrow-Icon" />
 				</button>
 			</div>
 		</section>

@@ -1,18 +1,15 @@
-import datas from "./datas/datas.json";
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
 	return (
 		<nav>
 			<ul>
 				<li>
-					<a href="#">{datas.lienAccueil}</a>
+					<Link to="/">Accueil</Link>
 				</li>
 				<li>
-					<a href="#">{datas.lienCV}</a>
-				</li>
-				<li>
-					<a href="#">{datas.lienContact}</a>
+					<Link to="/cv">CV</Link>
 				</li>
 			</ul>
 		</nav>
